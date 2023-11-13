@@ -21,11 +21,6 @@ std::vector<int> functions::subarraySum(std::vector<int>arr, int n, long long s)
     int i_end = n;
     int result = 0;
 
-    if (s == 0)
-    {
-        return { -1 };
-    }
-
     for (int i = 0; i <= n; i++)
     {
         if (result < s)
